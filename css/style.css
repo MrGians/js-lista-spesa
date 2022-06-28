@@ -1,2 +1,23 @@
 /*********** Generics ***********/
+body {background-color: rgb(2, 34, 5);}
 
+section {
+    height: 400px;
+    width: 600px;
+    margin: 100px auto;
+    border: 10px solid black;
+    background-color: beige;
+}
+
+section .container-fluid {height: calc(100% - 20px - 50px)}
+
+#list {
+    list-style-type: none;
+    height: 100%;
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: 15px;
+    box-shadow: inset 0 0 5px black;
+    
+    overflow-y: auto;
+}
